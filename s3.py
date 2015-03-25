@@ -86,7 +86,6 @@ def createUrllibGrabber():
 
         def urlgrab(self, url, filename=None, **kwargs):
             """urlgrab(url) copy the file to the local filesystem"""
-            self.verbose_logger.log(logginglevels.DEBUG_4, "UrlLibGrabber urlgrab url=%s filename=%s" % ( url, filename ))
             req = self._request(url)
             if not filename:
                 filename = req.get_selector()
