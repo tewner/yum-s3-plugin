@@ -1,6 +1,6 @@
 Name:		yum-s3
 Version:	0.2.4
-Release:	1
+Release:	scene53
 Summary:	Amazon S3 plugin for yum.
 
 Group:		unknown
