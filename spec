@@ -11,8 +11,6 @@ Source1:	s3.conf
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildArch:      noarch
 
-Requires:	python-boto
-
 %description
 
 %prep
